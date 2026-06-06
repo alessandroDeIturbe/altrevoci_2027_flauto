@@ -2,7 +2,7 @@
     "name": "altrevoci_2027_flauto",
     "version": 1,
     "creationdate": 3859364097,
-    "modificationdate": 3859471112,
+    "modificationdate": 3863582713,
     "viewrect": [ 25.0, 114.0, 300.0, 500.0 ],
     "autoorganize": 1,
     "hideprojectwindow": 0,
@@ -26,6 +26,10 @@
             "prime.maxpat": {
                 "kind": "patcher",
                 "local": 1
+            },
+            "reverb.poly.maxpat": {
+                "kind": "patcher",
+                "local": 1
             }
         },
         "media": {
@@ -39,7 +43,8 @@
                 "kind": "json",
                 "local": 1
             }
-        }
+        },
+        "externals": {        }
     },
     "layout": {    },
     "searchpath": {    },
