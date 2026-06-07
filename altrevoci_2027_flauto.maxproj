@@ -2,7 +2,7 @@
     "name": "altrevoci_2027_flauto",
     "version": 1,
     "creationdate": 3859364097,
-    "modificationdate": 3863582713,
+    "modificationdate": 3863670258,
     "viewrect": [ 25.0, 114.0, 300.0, 500.0 ],
     "autoorganize": 1,
     "hideprojectwindow": 0,
@@ -19,6 +19,10 @@
                 "kind": "patcher",
                 "local": 1
             },
+            "reverb.poly.maxpat": {
+                "kind": "patcher",
+                "local": 1
+            },
             "water_effect.maxpat": {
                 "kind": "patcher",
                 "local": 1
@@ -27,7 +31,7 @@
                 "kind": "patcher",
                 "local": 1
             },
-            "reverb.poly.maxpat": {
+            "csi.cues_manager_general.maxpat": {
                 "kind": "patcher",
                 "local": 1
             }
@@ -36,10 +40,24 @@
             "water_drop.mp3": {
                 "kind": "audiofile",
                 "local": 1
+            },
+            "ir_glass_1.wav": {
+                "kind": "audiofile",
+                "local": 1
+            }
+        },
+        "code": {
+            "csi.cues_manager_node.js": {
+                "kind": "javascript",
+                "local": 1
             }
         },
         "data": {
             "cues.json": {
+                "kind": "json",
+                "local": 1
+            },
+            "package.json": {
                 "kind": "json",
                 "local": 1
             }
